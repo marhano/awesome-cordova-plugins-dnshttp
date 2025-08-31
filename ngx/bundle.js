@@ -28,7 +28,7 @@ var dnshttp = /** @class */ (function (_super) {
     function dnshttp() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    dnshttp.prototype.post = function (url, body, options, dns) { return core.cordova(this, "post", {}, arguments); };
+    dnshttp.prototype.post = function (url, body, options) { return core.cordova(this, "post", {}, arguments); };
     dnshttp.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: dnshttp, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
     dnshttp.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: dnshttp });
     dnshttp.pluginName = "dnshttp";

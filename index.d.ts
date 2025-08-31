@@ -244,7 +244,8 @@ export declare class dnshttpOriginal extends AwesomeCordovaNativePlugin {
         transferCache?: {
             includeHeaders?: string[];
         } | boolean;
-    }, dns?: string): Promise<any>;
+        dnsServer?: string;
+    }): Promise<any>;
 }
 
 export declare const dnshttp: dnshttpOriginal;
